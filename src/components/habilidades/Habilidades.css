@@ -12,7 +12,7 @@
     margin-bottom: 20px;
 }
 
-.container-header-habilidades img
+.container-header-habilidades img, .container-habilidades-por-aprender img
 {
 	object-fit: contain;
     width: 140px;
@@ -32,9 +32,19 @@
         max-width: 300px;
     }
 
-    .container-header-habilidades, .container-body-habilidades
+    .container-header-habilidades, .container-habilidades-por-aprender
     {
-        grid-template-columns: repeat(1, 1fr);
-        overflow: auto;
+        margin: 0;
+    }
+
+    .container-header-habilidades img, .container-habilidades-por-aprender img
+    {
+        object-fit: contain;
+        width: 100px;
+    }
+
+    .container-habilidades
+    {
+        height: 190px;
     }
 }

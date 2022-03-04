@@ -2,7 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tobiaslongstaff.github.io",
+  "homepage": "https://tobiaslongstaff.com",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
     "@iconscout/react-unicons-monochrome": "^0.0.5",
@@ -19,7 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo tobiaslongstaff.com > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

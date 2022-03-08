@@ -12,7 +12,7 @@ const Habilidades = () =>
         <Animator animation={Fade()}>
             <div className="container-habilidades-info">
                 <h2>Habilidades</h2>
-                <p>Estas son algunas de la tecnología con las que trabajo:</p>       
+                <p>Estas son algunas de las tecnología con las que trabajo:</p>       
                 <div className="container-habilidades">
                     <div className="container-header-habilidades">
                         <IcoLeng tipo={dataHabiPrin}/>

@@ -13,8 +13,10 @@ const SobreMi = () =>
             <div className="container-text-sobre-mi">
                 <Animator animation={Fade()}>
                     <p>
-                        Desde muy chico que sentí interés por la informática y el diseño gráfico. El primer lenguaje con el que aprendí a programar fue Visual Basic a los 15 años fue cuando me di cuenta lo increíble que es llevar una idea que está en tu cabeza a un sistema informático. Desde entonces no paro de aprender y practicar nuevos lenguajes y conceptos sobre el tema.
-                        <br/>También me gusta la música, toco la guitarra y la batería tengo varias listas de reproducción creadas con música que suelo escuchar por si te interesa. 
+                        Desde muy chico que sentí interés por la informática y el diseño gráfico. El primer lenguaje con el que aprendí a programar fue Visual Basic a los 15 años fue cuando me di cuenta lo increíble que es llevar a cabo una idea que está en tu cabeza a un sistema informático. 
+                        <br/>Desde entonces he realizado más de 15 sistemas para distintas instituciones de distintos rubros.
+                        <br/>Estos sistemas fueron realizados acorde a las exigencias de cada cliente.
+                        <br/>La informática para mí no es solo un trabajo, sino que también es uno de mis hobby.
                     </p>
                 </Animator>
             </div> 

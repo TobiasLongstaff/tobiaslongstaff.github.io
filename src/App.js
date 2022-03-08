@@ -1,7 +1,7 @@
 import React from 'react'
 import { Animator, ScrollContainer, ScrollPage, Fade } from 'react-scroll-motion'
 import Navegacion from './components/navegacion/Navegacion'
-import mifoto from './img/mifoto.jpeg'
+import mifoto from './img/Foto1.png'
 import { UilLinkedin, UilGithub} from '@iconscout/react-unicons'
 import  Proyectos from './components/proyectos/Proyectos'
 import  Habilidades from './components/habilidades/Habilidades'

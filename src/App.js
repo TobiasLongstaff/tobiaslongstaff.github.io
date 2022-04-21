@@ -31,7 +31,7 @@ const App = () =>
                                         </div>
                                     </div>
                                     <p className="text-bienvenida">
-                                        en Tecnología de la Información. Llevo 2 años trabajando como desarrollador FullStack a la par que 3 años realizando soporte técnico a múltiples empresas.
+                                        en Tecnología de la Información. Llevo 3 años trabajando como desarrollador FullStack a la par que 4 años realizando soporte técnico a múltiples empresas.
                                     </p>                                     
                                 </div>
                                 <div className="container-redes">

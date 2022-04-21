@@ -3,7 +3,6 @@ import {Animator, Fade} from 'react-scroll-motion'
 import IcoLeng from '../ico-leng/IcoLeng'
 import dataHabiPrin from '../../json/habilidadesPrin.json'
 import dataHabi from '../../json/habilidades.json'
-import dataNoHabi from '../../json/poraprender.json'
 import './Habilidades.css'
 
 const Habilidades = () =>
@@ -20,11 +19,7 @@ const Habilidades = () =>
                     <div className="container-body-habilidades">
                         <IcoLeng tipo={dataHabi}/>
                     </div>
-                </div>
-                <p>Aparte de aprender más a fondo las tecnologías con las que trabajo también tengo pendiente aprender:</p>
-                <div className="container-habilidades-por-aprender">
-                    <IcoLeng tipo={dataNoHabi}/>
-                </div>                 
+                </div>                
             </div>
         </Animator>
     )
